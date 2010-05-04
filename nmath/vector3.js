@@ -1,12 +1,20 @@
-var vector3 = require('vector3');
-var nmath = require('nmath');
+var Vector3 = require('./vector3');
+var nMath = require('../nmath');
 
-function Vector3()
+nMath.Vector3 = function Vector3()
 {
 	this.X = 0;
 	this.Y = 0;
 	this.Z = 0;
 }
+
+nMath.Vector3 = function Vector3(x,y,z)
+{
+	this.X = x;
+	this.Y = y;
+	this.Z = z;
+}
+
 
 exports.Vector3 = Vector3;
 

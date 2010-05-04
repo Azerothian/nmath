@@ -1,3 +1,3 @@
-this.nmath = this;
-//blah
+this.nMath = this;
+
 require('./nmath/vector3');
