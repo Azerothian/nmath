@@ -1,3 +1,3 @@
-this.math = this;
-
-require('math/vector3');
+this.nmath = this;
+//blah
+require('./nmath/vector3');
